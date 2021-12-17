@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.form-fill{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages-form{
+    display: inline-flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    width: 10%;
+}
+
+.status-form{
+    display: inline-flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+.book-form, .author-form{
+    display: flex;
+    flex-direction: column
+}
+
+.book-form, .author-form, .pages-form, .status-form{
+    gap: 16px;
+}
+
+.u-full-width{
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.u-half-width{
+    width: 50%;
+}
+
+#status{
+    background-color: white;
+}
+
+.option{
+    background-color: white;
+}
+
+.sub-btn{
+    display: flex;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr{
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+
+table td{
+    text-align: center;
+    padding: 20px;
+}
